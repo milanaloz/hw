@@ -1,0 +1,39 @@
+ul {
+    list-style:none;
+}
+
+li {
+	width: 100px;
+	height:100px;
+	margin:10px;
+	float:left;
+}
+
+.red,.violet:hover {
+ 	background-color: red;
+ }
+
+.orange, .red:hover {
+	background: orange;
+ }
+
+.yellow, .orange:hover {
+	background: yellow;
+ }
+ 
+ .green, .yellow:hover {
+	background: green;
+}
+ 
+.lightblue, .green:hover {
+ 	background: lightblue;
+}
+ 
+ .blue,.lightblue:hover{
+  	background: blue;
+  } 
+
+ .violet,.blue:hover{
+ 	background: violet;
+ }
+ 
